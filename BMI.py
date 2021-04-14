@@ -7,9 +7,9 @@ mass = float(input ("\nВедіть вашу вагу в кг. : "))
 height = float (input("\nВведіть ваш зріст в M. : "))
 BMI = mass / height **2
 if BMI <= 18.5:
-    print("недостатня маса тіла ")
+    print("недостатня маса тіла")
 elif  BMI >= 18.5 and BMI < 25:
-    print("Нормальна маса тіла ")
+    print("Нормальна маса тіла")
 else:
     print("Надлишкова вага")
 
